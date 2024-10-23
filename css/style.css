@@ -209,9 +209,75 @@ span.mensile {
 }
 
 .professional{
+  justify-content: center;
   padding: 30px;
 }
 
+.tipo-piano li{
+ list-style: none;
+ padding: 5px;
+}
+
+.tipo-piano li:first-child{
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+.tipo-piano li:nth-child(2){
+  font-weight: bold;
+}
+.tipo-piano li:last-child{
+  font-size: 0.8rem;
+  color: var(--bordo-grigio);
+
+}
+
+.caratteristiche {
+ padding-top: 30px;
+}
+.caratteristiche li{
+  font-size: 0.9em;
+  padding: 5px;
+  padding-left: 19px;
+}
+
+.professional button {
+  text-align: center;
+}
+
+div.professional button.head-inizia {
+  font-size: 0.95rem;
+  padding: 10px 27px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+button + span {
+  margin-bottom: 100px;
+}
+
+.tipo-piano li{
+  list-style: none;
+  padding: 5px;
+ }
+
+ hr {
+  text-align: left;
+  width: 45px;
+  margin: 30px 0px 30px;
+ }
+ 
+ .salienti li:first-child{
+ 
+  font-weight: bold;
+ }
+ .salienti li:nth-child(2){
+   font-weight: bold;
+ }
+ .salienti li:last-child{
+   font-size: 0.8rem;
+   color: var(--bordo-grigio);
+ 
+ }
 /*********CARDS*******/
 
 
