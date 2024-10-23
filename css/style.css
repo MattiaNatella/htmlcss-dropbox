@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: open sans, sans-serif;
+  font-weight:600;
 }
 
 
@@ -29,8 +30,18 @@ h1 {
   
 }
 
+h2 {
+  
+  padding-bottom: 50px;
+  
+}
+
 
 /***********UTILITY********/
+
+:root {
+  --bordo-grigio: 1px solid #D0D0D3;
+}
 
 .container {
   display: flex;
@@ -156,6 +167,7 @@ div.hero .col-text {
 
 .colp {
   width: 300px;
+  border:var(--bordo-grigio);
   min-height: 400px; /*DEBUG*/
 }
 
@@ -175,6 +187,23 @@ div.col-text div.absolute {
 
 div.col-text button.head-inizia {
   margin: 20px 0px 20px 0px;
+}
+
+span.mensile {
+  margin-right: 20px;
+}
+
+
+.piano {
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  border-bottom: 1px solid #D0D0D3;
+
+}
+
+.professional{
+  padding: 30px;
 }
 
 /*********CARDS*******/
