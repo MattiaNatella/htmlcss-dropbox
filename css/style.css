@@ -140,6 +140,12 @@ button.head-inizia {
   border-style: none;
 }
 
+header .col:first-child {
+  padding-left: 10px;
+}
+header .col:last-child {
+  padding-right: 10px;
+}
 
 /*********MAIN*********/
 
