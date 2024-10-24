@@ -321,7 +321,7 @@ div.w-650 {
 }
 
 div.container-main.img-text{
-  margin-top: 150px;
+  margin: 150px auto;
 }
 div.container-main div.col-text {
 padding: 50px;
@@ -336,9 +336,16 @@ div.partner {
   min-width: auto;
 }
 
-/*********CARDS*******/
+/*********6 MAGIC CARDS*******/
 
+section#dropbox-business img {
 
+}
+
+section#dropbox-business .colp {
+  border: none;
+
+}
 
 /*******FOOTER********/
 
