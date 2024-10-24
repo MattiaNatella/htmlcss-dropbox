@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: open sans, sans-serif;
-  font-weight:600;
+  font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 header {
   position: fixed;
@@ -18,6 +20,7 @@ header {
 footer {
 background-color: #000000;
 color: white;
+padding: 90px;
 }
 
 img {
@@ -89,12 +92,12 @@ h3 {
   align-items: center;
 }
 
-.debug {
+/* .debug {
   background-color: rgba(255, 0, 0, .2);
   border: 1px solid black;
   min-height: 50px;
 
-}
+} */
 
 .relative {
   position: relative;
@@ -336,15 +339,89 @@ div.partner {
   min-width: auto;
 }
 
-/*********6 MAGIC CARDS*******/
+ul.salienti li {
+  list-style: none;
+}
 
-section#dropbox-business img {
+ul.salienti li:not(:first-child)::before {
+  content: "\f00c";
+  color: #0061FF;
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
 
 }
+
+ul.caratteristiche li {
+  list-style: none;
+}
+
+ul.caratteristiche li:first-child::before{
+  content: "\f007";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900; */
+
+}
+
+ul.caratteristiche li:nth-child(2)::before{
+  content: "\f07b";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900; */
+
+}
+ul.caratteristiche li:last-child::before{
+  content: "\f1e0";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900; */
+
+}
+
+
+
+ul.caratteristiche li:first-child::before{
+
+  position: absolute;
+  top: 170px;
+  left: 30px;
+
+}
+
+ul.caratteristiche li:nth-child(2)::before{
+
+  position: absolute;
+  top: 200px;
+  left: 30px;
+
+}
+ul.caratteristiche li:last-child::before{
+
+  position: absolute;
+  top: 248px;
+  left: 30px;
+
+}
+
+
+  /* content: "\f00c";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900; */
+
+
+
+/*********6 MAGIC CARDS*******/
+
 
 section#dropbox-business .colp {
   border: none;
 
+}
+
+
+
+/***************ULTIMA SEZIONE MAIN********/
+
+div.last {
+  margin-top: 180px;
+  margin-bottom: 150px;
 }
 
 /*******FOOTER********/
@@ -362,4 +439,64 @@ footer a {
   text-decoration: none;
   color: white;
   
+}
+
+footer ul {
+  margin-bottom: 90px;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+footer .container {
+  margin: 0 auto;
+  max-width: 1180px;
+ 
+}
+
+footer hr{
+  width: 120px;
+ 
+}
+
+span.italiano {
+  display: block;
+  color: #999999;
+}
+
+div.container .italiano {
+  padding-top: 30px;
+}
+
+/********************ICONE***********************/
+
+ span.singolo::before{
+  content: "\f007";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+}
+ span.team::before{
+  content: "\f0c0";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+}
+ span.azienda::before{
+  content: "\f1ad";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+}
+
+
+span.italiano::before{
+  content: "\f57d";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+}
+
+span.italiano::after{
+  content: "\f0d8";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
 }
