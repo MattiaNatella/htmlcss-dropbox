@@ -113,7 +113,23 @@ h3 {
 }
 /**********HEADER**********/
 
+ul.testa li:not(:first-child):hover {
+  cursor: pointer;
+  height: 85px;
+  align-self: center;
+  line-height: 65px;
+  vertical-align: middle;
+  border-bottom: 3px solid black;
+}
 
+ul.testa li:not(:last-child):hover {
+  cursor: pointer;
+  height: 85px;
+  align-self: center;
+  line-height: 65px;
+  vertical-align: middle;
+  border-bottom: 3px solid black;
+}
 
 header .logo {
   width: 100px;
@@ -146,6 +162,7 @@ header img.logo {
 }
 
 button.head-inizia {
+  cursor: pointer;
   padding: 10px 15px;
   background-color: #0061FF;
   color: white;
@@ -287,6 +304,7 @@ button + span {
  }
 
  .contattaci {
+  cursor: pointer;
   margin: 40px auto;
   padding: 15px 1px;
   color: white;
