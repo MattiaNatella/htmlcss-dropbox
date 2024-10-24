@@ -35,6 +35,11 @@ h2 {
   padding-bottom: 50px;
   
 }
+h3 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  
+}
 
 
 /***********UTILITY********/
@@ -99,6 +104,10 @@ h2 {
   position: absolute;
 }
 
+.w-650 {
+  max-width: 650px;
+
+}
 /**********HEADER**********/
 
 
@@ -302,7 +311,30 @@ div.enterprise div.prova.relative{
   top: -18px;
 }
 
+div.container.main.enterprise p {
+  max-width: 650px;
+  
+}
 
+div.w-650 {
+  padding: 30px;
+}
+
+div.container-main.img-text{
+  margin-top: 150px;
+}
+div.container-main div.col-text {
+padding: 50px;
+}
+
+div.partner {
+  color: black;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 10px;
+  min-width: auto;
+}
 
 /*********CARDS*******/
 
